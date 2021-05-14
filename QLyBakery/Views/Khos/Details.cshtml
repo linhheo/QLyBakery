@@ -1,0 +1,35 @@
+﻿@model QLyBakery.Models.Kho
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+    <h4>Kho</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenNguyenlieu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenNguyenlieu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluong)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.NguyenlieuID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
