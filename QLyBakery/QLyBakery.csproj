@@ -142,6 +142,7 @@
     <Compile Include="Controllers\MenusController.cs" />
     <Compile Include="Controllers\NhaCungCapsController.cs" />
     <Compile Include="Controllers\NhanViensController.cs" />
+    <Compile Include="Filter\FilterAuthorize.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

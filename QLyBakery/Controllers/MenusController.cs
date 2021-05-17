@@ -6,10 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using QLyBakery.Filter;
 using QLyBakery.Models;
 
 namespace QLyBakery.Controllers
 {
+    [FilterAuthorize]
     public class MenusController : Controller
     {
         private CuahangBanhDbContext db = new CuahangBanhDbContext();
