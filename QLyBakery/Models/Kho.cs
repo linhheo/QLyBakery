@@ -17,5 +17,6 @@ namespace QLyBakery.Models
         public string NguyenlieuID { get; set; }
         public string TenNguyenlieu { get; set; }
         public int Soluong { get; set; }
+        public string NhaCungCapID { get; set; }
     }
 }
